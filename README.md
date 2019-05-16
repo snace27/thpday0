@@ -1,6 +1,6 @@
 Click on the button below to run in Binder.
 
-Its best to clone and Get your own badge.
+Its best to clone and Get your own badge if you want to save your changes.
 
 Mine is:
 
