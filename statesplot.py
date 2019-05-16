@@ -131,7 +131,7 @@ def make_map(state2poly, states, label, figsize=(12, 9)):
         vmin, vmax = 0, 1
     else:  # colormap for electoral votes, or other values
         cmap = cm.binary
-        vmin, vmax = 0, states.max()
+        vmin, vmax = states.min(), states.max()
     norm = mpl.colors.Normalize(vmin=vmin, vmax=vmax)
     
     skip = set(['National', 'District of Columbia', 'Guam', 'Puerto Rico',
